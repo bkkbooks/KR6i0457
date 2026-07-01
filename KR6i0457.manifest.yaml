@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6i0457/v1
+canonical_location: https://kanripo.org/bkk/KR6i0457/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 惟日雜難經
+  identifiers:
+    alt_id:
+    - T17n0760
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0760.xml
+    old_id: T17n0760
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit6
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0457_000.yaml, hash: 'sha256:68fad0f9d93f829571645446a2d6bc23b272c8d5cceebb4e700991c8c9728fab'}
+  - {seq: 1, filename: KR6i0457_001.yaml, hash: 'sha256:998af87329c0d1a3097f054727f01ffcac6c8174f421333819e9e4c423b56906'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0457_001.markers.yaml, hash: 'sha256:36d54ea3f33d54641eb8d9931620e251256f9d9407788ffcf0981d75ae3c2f00'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0457_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6163
+  label: 惟日雜難經一卷
+  type: juan
+  level: 1
+hash: sha256:fdbdf0ba3a1e468e7ed3e6fbe2c28bfb5d5b7e9c045f37f28a5d90ca38c75fb6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
