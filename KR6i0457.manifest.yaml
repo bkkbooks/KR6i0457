@@ -40,9 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0457_000.yaml, hash: 'sha256:68fad0f9d93f829571645446a2d6bc23b272c8d5cceebb4e700991c8c9728fab'}
-  - {seq: 1, filename: KR6i0457_001.yaml, hash: 'sha256:998af87329c0d1a3097f054727f01ffcac6c8174f421333819e9e4c423b56906'}
+  - {seq: 1, filename: KR6i0457_001.yaml, hash: 'sha256:d99134460ae2e40a8da9d73db7508cc5b2c1ec56e74f6fd47a5b98cd137090b6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0457_001.markers.yaml, hash: 'sha256:36d54ea3f33d54641eb8d9931620e251256f9d9407788ffcf0981d75ae3c2f00'}
+  - {seq: 0, role: markers, filename: assets/KR6i0457_000.markers.yaml, hash: 'sha256:6c7f583ff1e2a5339817cfa6e080231a36b67dd2f179145982546e2d52b09dcd'}
+  - {seq: 1, role: markers, filename: assets/KR6i0457_001.markers.yaml, hash: 'sha256:b1a115922c22b569669437cd630ad6f7c8d53d5ad0c2f2eee8b21b6e1ff6fd85'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,7 +55,4 @@ table_of_contents:
   label: 惟日雜難經一卷
   type: juan
   level: 1
-hash: sha256:fdbdf0ba3a1e468e7ed3e6fbe2c28bfb5d5b7e9c045f37f28a5d90ca38c75fb6
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:040c4e04b191d84ae546a973730d9f105ca269ef8bf602d37b620bfc808fd5d5
