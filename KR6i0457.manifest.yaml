@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0457/v1
 canonical_location: https://kanripo.org/bkk/KR6i0457/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 惟日雜難經
   identifiers:
@@ -40,10 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0457_000.yaml, hash: 'sha256:68fad0f9d93f829571645446a2d6bc23b272c8d5cceebb4e700991c8c9728fab'}
-  - {seq: 1, filename: KR6i0457_001.yaml, hash: 'sha256:d99134460ae2e40a8da9d73db7508cc5b2c1ec56e74f6fd47a5b98cd137090b6'}
+  - {seq: 1, filename: KR6i0457_001.yaml, hash: 'sha256:981daaf0965aa87fc160351b9ef63e1d6656cc33ac0649104016bf2c8cc3c420'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0457_000.markers.yaml, hash: 'sha256:6c7f583ff1e2a5339817cfa6e080231a36b67dd2f179145982546e2d52b09dcd'}
-  - {seq: 1, role: markers, filename: assets/KR6i0457_001.markers.yaml, hash: 'sha256:b1a115922c22b569669437cd630ad6f7c8d53d5ad0c2f2eee8b21b6e1ff6fd85'}
+  - {seq: 1, role: markers, filename: assets/KR6i0457_001.markers.yaml, hash: 'sha256:b344682fa55a20b3591bab94537903396f24c3dd1b0cf75df276f9806ce8e96b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 惟日雜難經一卷
   type: juan
   level: 1
-hash: sha256:040c4e04b191d84ae546a973730d9f105ca269ef8bf602d37b620bfc808fd5d5
+hash: sha256:8572de9f4c46753f9c9cc6d3c234eb9be5f68ee31be1449686d4e15fd7a5ed68
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
